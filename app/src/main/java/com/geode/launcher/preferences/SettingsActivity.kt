@@ -500,7 +500,7 @@ fun GameplaySettingsGroup() {
                 val launchIntent = context.packageManager.getLaunchIntentForPackage(context.packageName)!!.apply {
                     // hardcode it, why not
                     action = Intent.ACTION_VIEW
-                    data = "geode-launcher://main/launch?safe-mode=true".toUri()
+                    data = "lightsync-launcher://main/launch?safe-mode=true".toUri()
                 }
                 context.startActivity(launchIntent)
             }

@@ -9,10 +9,10 @@ You can open these links by copying them into the URL bar in some browsers (like
 
 | Link                                        | Action                                                                   |
 |---------------------------------------------|--------------------------------------------------------------------------|
-| geode-launcher://main                       | Opens to the main activity, forces the user to explicitly confirm launch |
-| geode-launcher://main/launch                | Opens to the game after the launcher is finished checking for updates    | 
-| geode-launcher://main/launch?safe-mode=true | Opens to the game like before, but with safe mode enabled                |
-| geode-launcher://settings                   | Opens the main settings                                                  |
-| geode-launcher://developer-settings         | Opens the developer settings                                             |
-| geode-launcher://logs                       | Opens the application logs                                               |
-| geode-launcher://crashes                    | Opens the crash dumps viewer                                             |
+| lightsync-launcher://main                       | Opens to the main activity, forces the user to explicitly confirm launch |
+| lightsync-launcher://main/launch                | Opens to the game after the launcher is finished checking for updates    | 
+| lightsync-launcher://main/launch?safe-mode=true | Opens to the game like before, but with safe mode enabled                |
+| lightsync-launcher://settings                   | Opens the main settings                                                  |
+| lightsync-launcher://developer-settings         | Opens the developer settings                                             |
+| lightsync-launcher://logs                       | Opens the application logs                                               |
+| lightsync-launcher://crashes                    | Opens the crash dumps viewer                                             |

@@ -60,7 +60,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="developer-settings" />
+                <data android:scheme="lightsync-launcher" android:host="developer-settings" />
             </intent-filter>
         </activity>
         <activity
@@ -73,7 +73,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="logs" />
+                <data android:scheme="lightsync-launcher" android:host="logs" />
             </intent-filter>
         </activity>
         <activity
@@ -86,7 +86,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="crashes" />
+                <data android:scheme="lightsync-launcher" android:host="crashes" />
             </intent-filter>
         </activity>
         <activity
@@ -99,7 +99,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="geode-logs" />
+                <data android:scheme="lightsync-launcher" android:host="geode-logs" />
             </intent-filter>
         </activity>
         <activity
@@ -122,7 +122,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="settings" />
+                <data android:scheme="lightsync-launcher" android:host="settings" />
             </intent-filter>
         </activity>
         <activity
@@ -151,7 +151,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="lightsync-launcher" android:host="main" />
             </intent-filter>
         </activity>
 
@@ -172,7 +172,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="lightsync-launcher" android:host="main" />
             </intent-filter>
         </activity-alias>
         <activity-alias
@@ -192,7 +192,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="lightsync-launcher" android:host="main" />
             </intent-filter>
         </activity-alias>
         <activity-alias
@@ -212,7 +212,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="lightsync-launcher" android:host="main" />
             </intent-filter>
         </activity-alias>
         <activity-alias
@@ -232,7 +232,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="lightsync-launcher" android:host="main" />
             </intent-filter>
         </activity-alias>
 

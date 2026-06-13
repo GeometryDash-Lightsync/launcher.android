@@ -334,8 +334,8 @@ fun DownloadRecommendation(needsUniversal: Boolean, modifier: Modifier = Modifie
     val showDownload = remember { GamePackageUtils.showDownloadBadge(context.packageManager) }
 
     val downloadBase = "https://github.com/geode-sdk/android-launcher/releases/download/$version"
-    val legacyDownloadUrl = "$downloadBase/geode-launcher-v$version-android32.apk"
-    val universalDownloadUrl = "$downloadBase/geode-launcher-v$version.apk"
+    val legacyDownloadUrl = "$downloadBase/lightsync-launcher-v$version-android32.apk"
+    val universalDownloadUrl = "$downloadBase/lightsync-launcher-v$version.apk"
 
     val downloadUrl = if (needsUniversal)
         universalDownloadUrl else legacyDownloadUrl
