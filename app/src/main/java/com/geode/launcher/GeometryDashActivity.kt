@@ -32,7 +32,7 @@ import com.glsync.launcher.utils.Constants
 import com.glsync.launcher.utils.ConstrainedFrameLayout
 import com.glsync.launcher.utils.DownloadUtils
 import com.glsync.launcher.utils.GamePackageUtils
-import com.glsync.launcher.utils.GeodeUtils
+import com.geode.launcher.utils.GeodeUtils
 import com.glsync.launcher.utils.LaunchUtils
 import com.glsync.launcher.utils.PreferenceUtils
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView
