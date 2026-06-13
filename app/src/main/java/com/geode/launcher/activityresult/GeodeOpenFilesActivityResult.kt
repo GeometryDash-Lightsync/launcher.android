@@ -1,4 +1,4 @@
-package com.glsync.launcher.activityresult
+package com.geode.launcher.activityresult
 
 import android.app.Activity
 import android.content.Context

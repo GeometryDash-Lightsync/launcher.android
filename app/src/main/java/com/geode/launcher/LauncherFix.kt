@@ -1,7 +1,7 @@
-package com.glsync.launcher
+package com.geode.launcher
 
 import androidx.annotation.Keep
-import com.glsync.launcher.utils.Constants
+import com.geode.launcher.utils.Constants
 
 @Keep
 object LauncherFix {

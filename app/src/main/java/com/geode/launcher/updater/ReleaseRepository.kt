@@ -1,7 +1,7 @@
-package com.glsync.launcher.updater
+package com.geode.launcher.updater
 
-import com.glsync.launcher.BuildConfig
-import com.glsync.launcher.utils.LaunchUtils
+import com.geode.launcher.BuildConfig
+import com.geode.launcher.utils.LaunchUtils
 import kotlin.time.Clock
 import kotlinx.datetime.DateTimeUnit
 import kotlin.time.Instant

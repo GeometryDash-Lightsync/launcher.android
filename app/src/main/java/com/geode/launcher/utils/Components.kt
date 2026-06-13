@@ -1,4 +1,4 @@
-package com.glsync.launcher.utils
+package com.geode.launcher.utils
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth

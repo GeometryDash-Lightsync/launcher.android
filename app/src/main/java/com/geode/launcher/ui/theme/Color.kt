@@ -1,4 +1,4 @@
-package com.glsync.launcher.ui.theme
+package com.geode.launcher.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

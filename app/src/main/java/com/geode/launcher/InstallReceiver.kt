@@ -1,11 +1,11 @@
-package com.glsync.launcher
+package com.geode.launcher
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageInstaller
 import android.widget.Toast
-import com.glsync.launcher.main.clearDownloadedApks
+import com.geode.launcher.main.clearDownloadedApks
 
 class InstallReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

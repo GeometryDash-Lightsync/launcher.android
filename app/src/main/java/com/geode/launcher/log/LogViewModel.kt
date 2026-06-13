@@ -1,4 +1,4 @@
-package com.glsync.launcher.log
+package com.geode.launcher.log
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel

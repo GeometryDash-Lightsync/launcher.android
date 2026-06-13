@@ -1,4 +1,4 @@
-package com.glsync.launcher.log
+package com.geode.launcher.log
 
 import kotlin.time.Clock
 import kotlin.time.Instant

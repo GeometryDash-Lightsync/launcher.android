@@ -30,12 +30,12 @@ import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import androidx.documentfile.provider.DocumentFile
-import com.glsync.launcher.BuildConfig
-import com.glsync.launcher.R
-import com.glsync.launcher.UserDirectoryProvider
-import com.glsync.launcher.activityresult.GeodeOpenFileActivityResult
-import com.glsync.launcher.activityresult.GeodeOpenFilesActivityResult
-import com.glsync.launcher.activityresult.GeodeSaveFileActivityResult
+import com.geode.launcher.BuildConfig
+import com.geode.launcher.R
+import com.geode.launcher.UserDirectoryProvider
+import com.geode.launcher.activityresult.GeodeOpenFileActivityResult
+import com.geode.launcher.activityresult.GeodeOpenFilesActivityResult
+import com.geode.launcher.activityresult.GeodeSaveFileActivityResult
 import java.io.File
 import java.lang.ref.WeakReference
 import kotlin.system.exitProcess
@@ -409,7 +409,7 @@ object GeodeUtils {
     }
 
     fun isGeodeUri(uri: Uri): Boolean {
-        return "com.glsync.launcher.user" == uri.authority
+        return "com.geode.launcher.user" == uri.authority
     }
 
     private const val INTERNAL_PERMISSION_PREFIX = "geode.permission_internal"

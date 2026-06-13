@@ -1,4 +1,4 @@
-package com.glsync.launcher.preferences
+package com.geode.launcher.preferences
 
 import android.os.Bundle
 import android.widget.Toast
@@ -51,18 +51,18 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.glsync.launcher.R
-import com.glsync.launcher.log.LogLine
-import com.glsync.launcher.log.LogPriority
-import com.glsync.launcher.log.LogViewModel
-import com.glsync.launcher.preferences.components.SelectDialog
-import com.glsync.launcher.preferences.components.SelectOption
-import com.glsync.launcher.ui.theme.GeodeLauncherTheme
-import com.glsync.launcher.ui.theme.LocalTheme
-import com.glsync.launcher.ui.theme.Theme
-import com.glsync.launcher.ui.theme.Typography
-import com.glsync.launcher.ui.theme.robotoMonoFamily
-import com.glsync.launcher.utils.PreferenceUtils
+import com.geode.launcher.R
+import com.geode.launcher.log.LogLine
+import com.geode.launcher.log.LogPriority
+import com.geode.launcher.log.LogViewModel
+import com.geode.launcher.preferences.components.SelectDialog
+import com.geode.launcher.preferences.components.SelectOption
+import com.geode.launcher.ui.theme.GeodeLauncherTheme
+import com.geode.launcher.ui.theme.LocalTheme
+import com.geode.launcher.ui.theme.Theme
+import com.geode.launcher.ui.theme.Typography
+import com.geode.launcher.ui.theme.robotoMonoFamily
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.launch
 
 class ApplicationLogsActivity : ComponentActivity() {

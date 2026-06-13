@@ -1,4 +1,4 @@
-package com.glsync.launcher.utils
+package com.geode.launcher.utils
 
 import android.content.Context
 import android.os.Build
