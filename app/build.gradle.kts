@@ -16,7 +16,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.geode.launcher"
+        applicationId = "com.glsync.launcher"
         minSdk = 23
         targetSdk = 36
         versionCode = 29
@@ -82,7 +82,7 @@ android {
             path = file("src/main/cpp/CMakeLists.txt")
         }
     }
-    namespace = "com.geode.launcher"
+    namespace = "com.glsync.launcher"
     ndkVersion = "29.0.14206865"
 }
 
