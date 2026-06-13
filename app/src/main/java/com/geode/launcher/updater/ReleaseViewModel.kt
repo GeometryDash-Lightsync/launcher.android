@@ -1,4 +1,4 @@
-package com.geode.launcher.updater
+package com.glsync.launcher.updater
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences.components
+package com.glsync.launcher.preferences.components
 
 import androidx.activity.OnBackPressedDispatcher
 import androidx.annotation.StringRes
@@ -37,9 +37,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.log.BaseDirectoryViewModel
-import com.geode.launcher.ui.theme.Typography
+import com.glsync.launcher.R
+import com.glsync.launcher.log.BaseDirectoryViewModel
+import com.glsync.launcher.ui.theme.Typography
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

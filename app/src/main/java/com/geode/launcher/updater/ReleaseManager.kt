@@ -1,12 +1,12 @@
-package com.geode.launcher.updater
+package com.glsync.launcher.updater
 
 import android.content.Context
 import android.util.Log
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.utils.DownloadUtils
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.glsync.launcher.BuildConfig
+import com.glsync.launcher.utils.DownloadUtils
+import com.glsync.launcher.utils.GamePackageUtils
+import com.glsync.launcher.utils.LaunchUtils
+import com.glsync.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope

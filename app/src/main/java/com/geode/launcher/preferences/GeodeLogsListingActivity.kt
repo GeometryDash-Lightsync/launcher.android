@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package com.glsync.launcher.preferences
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -40,17 +40,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.log.GeodeLog
-import com.geode.launcher.log.GeodeLogsViewModel
-import com.geode.launcher.preferences.components.DirectoryListingScreen
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.ui.theme.robotoMonoFamily
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.glsync.launcher.R
+import com.glsync.launcher.UserDirectoryProvider
+import com.glsync.launcher.log.GeodeLog
+import com.glsync.launcher.log.GeodeLogsViewModel
+import com.glsync.launcher.preferences.components.DirectoryListingScreen
+import com.glsync.launcher.ui.theme.GeodeLauncherTheme
+import com.glsync.launcher.ui.theme.LocalTheme
+import com.glsync.launcher.ui.theme.Theme
+import com.glsync.launcher.ui.theme.robotoMonoFamily
+import com.glsync.launcher.utils.LaunchUtils
+import com.glsync.launcher.utils.PreferenceUtils
 import java.io.File
 
 class GeodeLogsListingActivity : ComponentActivity() {

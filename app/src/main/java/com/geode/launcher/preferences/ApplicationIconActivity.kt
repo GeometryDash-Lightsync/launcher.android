@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package com.glsync.launcher.preferences
 
 import android.content.ComponentName
 import android.content.Context
@@ -50,16 +50,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.utils.PreferenceUtils
+import com.glsync.launcher.R
+import com.glsync.launcher.ui.theme.GeodeLauncherTheme
+import com.glsync.launcher.ui.theme.LocalTheme
+import com.glsync.launcher.ui.theme.Theme
+import com.glsync.launcher.utils.PreferenceUtils
 import androidx.compose.ui.semantics.Role
-import com.geode.launcher.utils.ApplicationIcon
-import com.geode.launcher.utils.ApplicationIconDetails
-import com.geode.launcher.utils.IconUtils
-import com.geode.launcher.utils.adaptiveIconPainterResource
+import com.glsync.launcher.utils.ApplicationIcon
+import com.glsync.launcher.utils.ApplicationIconDetails
+import com.glsync.launcher.utils.IconUtils
+import com.glsync.launcher.utils.adaptiveIconPainterResource
 
 class ApplicationIconActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
