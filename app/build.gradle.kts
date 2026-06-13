@@ -82,7 +82,7 @@ android {
             path = file("src/main/cpp/CMakeLists.txt")
         }
     }
-    namespace = "com.glsync.launcher"
+    namespace = "com.geode.launcher"
     ndkVersion = "29.0.14206865"
 }
 
